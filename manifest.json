@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "YANTE",
-  "description": "Description for YANTE",
-  "version": "0.0",
+  "description": "Minimal newtab with background image",
+  "version": "1.0",
   "author": "aoi",
   "chrome_url_overrides": {
     "newtab": "NT.html"
@@ -12,5 +12,7 @@
     "48": "icon48.png",
     "128": "icon128.png"
   },
-  "permissions": ["storage", "unlimitedStorage"]
+  "permissions": [
+    "unlimitedStorage"
+  ]
 }
